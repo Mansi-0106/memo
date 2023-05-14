@@ -94,14 +94,14 @@ const SignUp = () => {
             { isSignup ? 'Sign Up' : 'Sign In' }
           </Button>
           <GoogleLogin
-            clientId="390468836897-fjusri7gsm8hk0vcuor2innjbajhudsl.apps.googleusercontent.com"
+            clientId="390468836897-fjusri7gsm8hk0vcuor2innjbajhudsl.apps.googleusercontent.com" 
             // render={(renderProps) => (
             //   <Button className={classes.googleButton} color="primary" fullWidth onClick={renderProps.onClick} disabled={renderProps.disabled} startIcon={<Icon />} variant="contained">
             //     Google Sign In
             //   </Button>
             // )}
             className={classes.googleButton}
-            buttonText='Sign in with Google'
+            buttonText="Sign in with Google"
             onSuccess={googleSuccess}
             onFailure={googleError}
             cookiePolicy={'single_host_origin'}
